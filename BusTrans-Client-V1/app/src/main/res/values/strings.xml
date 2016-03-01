@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SmartBus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_sound_map">SoundMap</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="msg_mic_error">Microphone is not accessible</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_manager">Manager</string>
+
+
+    <string-array name="oRoute">
+            <item>M5</item>
+            <item>M20</item>
+            <item>M21</item>
+    </string-array>
+
+    <string-array name="dRoute">
+        <item>M5</item>
+        <item>M20</item>
+        <item>M21</item>
+    </string-array>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+
+</resources>

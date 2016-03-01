@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="58adcfbe2c8393765e84c5489d01bba6a5159eb2">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-d6b6460e87946249e23364acb03701079b06eabe.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-84eec4621448320e926867a8fbe10b7a90584e7f.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2c6fcd6267cbac6509a2e72a61127534a1d616cf">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-dab07252159dd6fd15b5c1210497022c2118a063.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xin\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\library-2.4.0-316d23086bc2baa51acb1a5638e9f1474f1ea5a2.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="eb576427887e497cd958a475475f9206e38dc314">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-038fe997c9792acb2c6815dd8aa513a2152428aa.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="724ce977487ab3a215d4d2eb47d8dccd9f30013f">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-53643e63ef9793c1064a627a67028b89c076d757.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-bf606e53aa4abc2fb814681a65ddec4f188ba95e.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-251082d4a6f013c10fa3a9720118dd65f7d70870.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-3e5a8d27a0300389bfcebcd7669c14e3d60f4008.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-c638b67195fa5977dd75b06400fbd80ee57a8e3d.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-40789e122a3e797d4cf2c6881839fc4388f383a0.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.sothree.slidinguppanel\library\3.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6ca08eae09a2083fd5b430ce2a1faf86721a46bf">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-94b38cc9aa2d6b8a6e7b8fb5ee073719230bfd08.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="fd76d95678a6b2b8a49bb8a9fb5bcef7aedb70e7">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-bba1e4a2d619faa425a55aa84424a5857a882458.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="27775d59b16610ac76f1b83693fedd9520396332">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-60b29829dc731b0651d104c1fe4d6957ee045141.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="71eda10e33212e44245524b5087366ff8d805825">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-8727930fe75ea1dc188a3642c88131bedcc03cb9.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\httpclientandroidlib-1.2.1\httpclientandroidlib-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="876bd5cb8cee9c70980e77b489f06ca20452a054">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\httpclientandroidlib-1.2.1-262f7ed622ec8e24f1e049797cc98d0b17944c9e.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-fe851253ac1202280c39bf28813d3e90ff5608c4.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9aedc597d74c6d77258ce5236e9abff0c3cc65e3">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-b4e044ab98161d6148cafa1ac1c5d91470bfcbfd.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-9f028c31c8ece3bddbd50da2502aba48fbb49986.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-97c6e00eeea771ea7b76ef5feb714f255e3dce04.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-8937feb3c95e6d73b9699140a4c4588de571a560.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-a29aac61bd8fab22815fec75f687187aed7f4867.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-0184ce17a684a92d0fa9360d583d335b45724d07.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ea34579b1be157cd792376362157e9c54ebb4cd7">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-060e8c79f926bb421e806933783081e8c456aca4.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-3c3756134b0ff5e652570d46e02518ed3d853970.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0a1897426566e408a5c20a3d931f77d89771d07f">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-ced37895c230e9879257019310ce7cdd54883e66.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9c9bdb4b2497465a6cf7d5e8f57c5298f828a380">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-16d406709ece2bec5f786c4baa2ef14626a843e7.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="697679619b00837e3d09e9988a2e1e2a9009d502">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-f910356ed0949048831f3473f03b252ff0105d70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Xin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-47798bf618a64fbb96dc5bff6c7aa3765503fe90.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\org.json-20120521\org.json-20120521.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e04ebf63b984b19433748f06d50c1aba995a6292">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\org.json-20120521-e042aa735aab1ee2d682090f5dbd2bf162ae7a41.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="744c49c02a27569cc4cc049685d3649e4ef439f2">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-a12b2b0b4ed9fd59f92206869ce2e8ae771529ba.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-2fdaf113acbd515caa6ea88bfa8c720d3aa62d1a.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-608212515a0bfd0700b3ac9a1e1a41e00845a919.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-92580fe35534f696f986d49561dfc85cab5fbb99.jar" />
+    </item>
+    <item
+        jar="F:\smartbus\BusTrans-Client\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
+        <dex dex="F:\smartbus\BusTrans-Client\app\build\intermediates\pre-dexed\debug\classes-7095ae05e05f3973909fa2c854ffd37c581908bb.jar" />
+    </item>
+
+</items>

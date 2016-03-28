@@ -323,45 +323,6 @@ public class Login extends AppCompatActivity {
 
     }
 
-    private class OnItemSelectedListenerImploroute implements OnItemSelectedListener {
-
-        @Override
-        public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
-                                   long arg3) {
-            Login.this.adapterOStop = new ArrayAdapter<CharSequence>(
-                    Login.this, android.R.layout.simple_spinner_item,
-                    Login.this.dataStrings[arg2]); // 定义所有的列表项
-            Login.this.mOStop.setAdapter(Login.this.adapterOStop); // 设置二级列表选项框的内容
-            Login.this.adapterOStop
-                    .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);// 设置下拉框列表样式
-        }
-
-        @Override
-        public void onNothingSelected(AdapterView<?> arg0) {// 表示没有选项的时候触发
-            // 一般此方法现在不关心
-        }
-
-    }
-
-    private class OnItemSelectedListenerImpldroute implements OnItemSelectedListener {
-
-        @Override
-        public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
-                                   long arg3) {
-            Login.this.adapterDStop = new ArrayAdapter<CharSequence>(
-                    Login.this, android.R.layout.simple_spinner_item,
-                    Login.this.dataStrings[arg2]); // 定义所有的列表项
-            Login.this.mDStop.setAdapter(Login.this.adapterDStop); // 设置二级列表选项框的内容
-            Login.this.adapterDStop
-                    .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);// 设置下拉框列表样式
-        }
-
-        @Override
-        public void onNothingSelected(AdapterView<?> arg0) {// 表示没有选项的时候触发
-            // 一般此方法现在不关心
-        }
-
-    }
 
     /**
      * Set Button Listeners

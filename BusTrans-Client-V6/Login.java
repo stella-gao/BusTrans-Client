@@ -324,6 +324,7 @@ public class Login extends AppCompatActivity {
     }
 
     Timer t = new Timer();
+    Timer t1 = new Timer();
 
     /**
      * Set Button Listeners
@@ -354,7 +355,7 @@ public class Login extends AppCompatActivity {
 System.out.println("Timer is working.");
                         new Thread(rcThread).start();
                     }
-                }, 1000, 20000);
+                }, 8000, 20000);
 
 
 
@@ -388,7 +389,16 @@ System.out.println("Timer is working.");
             public void onClick(View v) {
 
 
-                new Thread(delayThread).start();
+                //new Thread(delayThread).start();
+
+                t1.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        //mBtnRc.performClick();
+ System.out.println("Timer1 is working.");
+                        new Thread(delayThread).start();
+                    }
+                }, 0, 20000);
 
             }
         });
@@ -622,24 +632,8 @@ System.out.println("Timer is working.");
             super.handleMessage(msg);
             Bundle data = msg.getData();
             String val = data.getString("rc");
-            //Log.d("Http","请求结果:" + val);
-            //可以开始处理UI
-            //Toast.makeText(Login.this, "The result is " + val,
-            //        Toast.LENGTH_LONG).show();
-           /*
-            if(val.equals(oroute+" is in the route list")) {
-                Toast.makeText(Login.this, "Your chosen route " + oroute +" is in the route list!",
-                        Toast.LENGTH_LONG).show();
-            } else if (val.equals(oroute+" is not in the route list")){
-                Toast.makeText(Login.this, "Wrong route information or/and format.",
-                        Toast.LENGTH_LONG).show();
-            } else {
-                Toast.makeText(Login.this, "Sorry. Fail to connect server. Please try later.",
-                        Toast.LENGTH_LONG).show();
-            }
-            */
-            /*Toast.makeText(Login.this, "Delay time is "+val,
-                    Toast.LENGTH_LONG).show();*/
+
+
 System.out.println("rcHandler is working. " + val);
 
             if (val.equals("route change")) {
@@ -663,6 +657,7 @@ System.out.println("rcHandler is working. " + val);
             else if (val.equals("arrive")){
                 Toast.makeText(Login.this, "The bus is arrived", Toast.LENGTH_LONG).show();
                 t.cancel();
+                t1.cancel();
             }
 
 /*

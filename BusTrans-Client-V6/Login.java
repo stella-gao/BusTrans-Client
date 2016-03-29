@@ -323,6 +323,7 @@ public class Login extends AppCompatActivity {
 
     }
 
+    Timer t = new Timer();
 
     /**
      * Set Button Listeners
@@ -342,14 +343,29 @@ public class Login extends AppCompatActivity {
 
                 new Thread(inputThread).start();
 
-                Handler mHandler = new Handler();
+                //Timer t = new Timer();
+                //timer.scheduleAtFixedRate( new Thread(rcThread).start(), 1000, 30000 );
+                t.schedule(new TimerTask()
+                {
+                    @Override
+                    public void run()
+                    {
+                        //mBtnRc.performClick();
+System.out.println("Timer is working.");
+                        new Thread(rcThread).start();
+                    }
+                }, 1000, 20000);
+
+
+
+                /*Handler mHandler = new Handler();
 
 
                 mHandler.postDelayed(new Runnable() {
                     public void run() {
                         mBtnRc.performClick();
                     }
-                }, 5000);
+                }, 5000);*/
 
 
                 //mBtnRc.performClick();
@@ -361,7 +377,6 @@ public class Login extends AppCompatActivity {
         mBtnRc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
 
                 new Thread(rcThread).start();
 
@@ -603,6 +618,7 @@ public class Login extends AppCompatActivity {
     Handler httpHandlerRc = new Handler() {
         @Override
         public void handleMessage(Message msg) {
+
             super.handleMessage(msg);
             Bundle data = msg.getData();
             String val = data.getString("rc");
@@ -624,9 +640,9 @@ public class Login extends AppCompatActivity {
             */
             /*Toast.makeText(Login.this, "Delay time is "+val,
                     Toast.LENGTH_LONG).show();*/
+System.out.println("rcHandler is working. " + val);
 
-
-            if (val == "route change") {
+            if (val.equals("route change")) {
 
                 new AlertDialog.Builder(context)
                         .setTitle("Notice")
@@ -635,14 +651,18 @@ public class Login extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which) {
                                 // continue with delete
                             }
-                        })
+                        })/*
                         .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // do nothing
                             }
-                        })
+                        })*/
                         .setIcon(android.R.drawable.ic_dialog_alert)
                         .show();
+            }
+            else if (val.equals("arrive")){
+                Toast.makeText(Login.this, "The bus is arrived", Toast.LENGTH_LONG).show();
+                t.cancel();
             }
 
 /*
@@ -658,18 +678,18 @@ public class Login extends AppCompatActivity {
         @Override
         public void run() {
             // TODO: http post.
+ System.out.println("rcThread is working.");
             String result = "-1";
             CloseableHttpClient httpClient = HttpClients.createDefault();
 
             HttpPost httpPost = new HttpPost(urlrc);
             NameValuePair pair1 = new BasicNameValuePair("fid", android_id);
-            //NameValuePair pair2 = new BasicNameValuePair("p_hold_request", "1");
 
 
             //将准备好的键值对对象放置在一个List当中
             ArrayList<NameValuePair> pairs = new ArrayList<>();
             pairs.add(pair1);
-            //pairs.add(pair2);
+
 
             try {
                 //创建代表请求体的对象（注意，是请求体）
@@ -705,6 +725,8 @@ public class Login extends AppCompatActivity {
             httpHandlerRc.sendMessage(msg);
         }
     };
+
+
     Runnable delayThread = new Runnable() {
 
         @Override
